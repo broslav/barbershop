@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Барбершоп Бородинский</title>
+    <link href='https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!------------------------------------HEADER STARTS---------------------------->
+
+
+
+    <header class="main-header">
+        <div class="container clearfix">
+            <nav class="main-nav">
+                <ul class="main-nav__list">
+                    <li class="main-nav__list-item active"><a href="#">Главная</a></li>
+                    <li class="main-nav__list-item"><a href="#">Информация</a></li>
+                    <li class="main-nav__list-item"><a href="#">Новости</a></li>
+                    <li class="main-nav__list-item"><a href="#">Прайс-лист</a></li>
+                    <li class="main-nav__list-item"><a href="#">Магазин</a></li>
+                    <li class="main-nav__list-item"><a href="#">Контакты</a></li>
+                </ul>
+            </nav>
+            <div class="user-block">
+                <a class="user-block__link" href="">ВХОД</a>
+            </div>
+
+        </div>
+    </header>
+    <div class="container clearfix">
+        <div class="logo">
+            <img src="img/logo.png" alt="Барбершоп Бородинский" class="logo__image" width="368" height="204">
+        </div>
+    </div>
+
+<!---------------FEATURES STARTS HERE------------------------------------>
+
+
+
+    <div class="container clearfix">
+        <article class="main-features clearfix">
+            <div class="main-features__item">
+                <h2 class="main-features__title">БЫСТРО</h2>
+                <p class="main-features__body">
+                    МЫ ДЕЛАЕМ СВОЮ РАБОТУ БЫСТРО! ДВА ЧАСА ПРОЛЕТЯТ НЕЗАМЕТНО И ВЫ — СЧАСТЛИВЫЙ ОБЛАДЕТЕЛЬ СТИЛЬНОЙ СТРИЖКИ-МИНУТКИ!
+                </p>
+            </div>
+            <div class="main-features__item">
+                <h2 class="main-features__title">КРУТО</h2>
+                <p class="main-features__body">
+                    ЗАБУДЬТЕ, КАК ВЫ СТРИГЛИСЬ РАНЬШЕ.
+                    МЫ СДЕЛАЕМ ИЗ ВАС ЗВЕЗДУ ФУТБОЛА ИЛИ КИНО!
+                    ВО ВСЯКОМ СЛУЧАЕ ВНЕШНЕ.
+                </p>
+            </div>
+            <div class="main-features__item">
+                <h2 class="main-features__title">ДОРОГО</h2>
+                <p class="main-features__body">
+                    НАШИ МАСТЕРА — ПРОФЕССИОНАЛЫ СВОЕГО ДЕЛА И НЕ МОГУТ СТОИТЬ ДЕШЕВО. К ТОМУ ЖЕ, РАЗВЕ ЦЕНА НЕ ДАЕТ ОПРЕДЕЛЕНЫЙ СТАТУС?
+                </p>
+            </div>
+        </article>
+
+
+        <!------------------------------------MAIN CONTENT BLOCK ONE----------------------------------------------->
+
+        <article class="main-content clearfix">
+            <div class="main-content__item main-content__item--left">
+                <h3 class="main-content__title">НОВОСТИ</h3>
+                <ul class="main-content__news">
+                    <li class="main-content__news-item">
+                        НАМ НАКОНЕЦ ЗАВЕЗЛИ ЯГЕРМАЙСТЕР! ТЕПЕРЬ ВЫ МОЖЕТЕ ПРОПУСТИТЬ СТАКАНЧИК ВО ВРЕМЯ СТРИЖКИ <br>
+                        <span class="main-content__news-item--date">25 сентября</span>
+                    </li>
+                    <li class="main-content__news-item">
+                        В НАШЕЙ КОМАНДЕ ПОПОЛНЕНИЕ, БОРИС «БРИТВА» СТРИГУНЕЦ, ОБЛАДЕТЕЛЬ МНОЖЕТСВА ТИТУЛОВ И НАГРАД ПОПОЛНИЛ НАШИ СТРОЙНЫЕ РЯДЫ<br>
+                        <span class="main-content__news-item--date">19 сентября</span>
+                    </li>
+                    <a href="#" class="all-news btn">Все новости</a>
+                </ul>
+            </div>
+            <div class="main-content__item main-content__item--gallery">
+                <h3 class="main-content__title">ФОТОГАЛЕРЕЯ</h3>
+                <div class="gallery">
+                    <img src="img/gallery.jpg" alt="наш магазинчик" width="290px" height="186px" class="gallery__picture">
+                    <button class="btn btn--left gallery__button">НАЗАД</button>
+                    <button class="btn btn--right gallery__button">ВПЕРЕД</button>
+                </div>
+            </div>
+        </article>
+
+
+        <!------------------------------------MAIN CONTENT BLOCK TWO---------------------->
+
+
+        <article class="main-content clearfix">
+            <div class="main-content__item main-content__item--left">
+                <h3 class="main-content__title">КОНТАКТНАЯ ИНФОРМАЦИЯ</h3>
+                <p class="main-content__adress">
+                BARBERSHOP «BORODINSKI»<br>
+                АДРЕС: Г. МОСКВА, УЛ. СОБАКИ ПАВЛОВА, Д. 13<br>
+                ТЕЛЕФОН: +7 (495) 666-02-666<br><br>
+
+                ВРЕМЯ РАБОТЫ:<br>
+                ПН — ПТ: С 10:00 ДО 22:00<br>
+                СБ — ВС: С 10:00 ДО 19:00</p>
+
+                <a href="#" class="btn btn--left contact-button">КАК ПРОЕХАТЬ</a>
+                <a href="#" class="btn btn--right contact-button">ОБРАТНАЯ СВЯЗЬ</a>
+                </div>
+                <div class="main-content__item">
+                    <h3 class="main-content__title">ЗАПИСАТЬСЯ</h3>
+                    <form action="post" class="main-form">
+                        <p class="main-form__descr">
+                            УКАЖИТЕ ЖЕЛАЕМУЮ ДАТУ И ВРЕМЯ И МЫ СВЯЖЕМСЯ С ВАМИ ДЛЯ ПОДТВЕРЖДЕНИЯ БРОНИ
+                        </p>
+                        <input type="date" name="date" id="date" placeholder="дата" class="main-form__input main-form__input--date">
+                        <input type="time" name="time" id="time" placeholder="время" class="main-form__input main-form__input--time right">
+                        <input type="text" name="name" id="name"  placeholder="ваше имя" class="main-form__input main-form__input--name">
+                        <input type="tel" placeholder="телефон" class="main-form__input main-form__input--phone right">
+                        <input type="submit" class="main-form__input main-form__input--submit  btn center">
+                    </form>
+                </div>
+            </div>
+        </article>
+
+
+        <!---------------------------------FOOOTER STARTS HERE----------------------------------------------->
+
+
+        <footer class="main-footer">
+            <div class="container clearfix">
+                <div class="main-footer__adress">
+                    BARBERSHOP «BORODINSKI»<br>
+                    АДРЕС: Г. МОСКВА, УЛ. СОБАКИ ПАВЛОВА, Д. 13<br>
+                    ТЕЛЕФОН: +7 (495) 666-02-666<br>
+                </div>
+                <div class="main-footer__social">
+                    ДАВАЙТЕ ДРУЖИТЬ!
+                    <ul class="main-footer__social-list">
+                        <li class="main-footer__social-list__item"><a class="vk" href="#">ВКонтакте</a></li>
+                        <li class="main-footer__social-list__item"><a class="fb" href="#">Фейсбук</a></li>
+                        <li class="main-footer__social-list__item"><a class="insta" href="#">Инстаграмм</a></li>
+                    </ul>
+                </div>
+                <div class="main-footer__copyright">
+                    <a href="#" class="btn main-footer__btn">GLUKHANKO.RU</a>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <!-------------------- MODAL WINDOW STARTS HERE ----------------------->
+
+    <div class="modal">
+        <div class="modal-close"></div>
+        <h2 class="modal-title">ЛИЧНЫЙ КАБИНЕТ</h2>
+        <span class="modal-text">
+            Введите пожалуйста свой логин и пароль
+            Если вы забыли пароль
+        </span>
+        <form action="/echo" method="post" class="modal-form">
+            <input type="text" id="login" class="modal-form__input--login modal-form__input" placeholder="ЛОГИН">
+            <input type="text" id="password" class="modal-form__input--pass modal-form__input" placeholder="ПАРОЛЬ">
+            <input type="checkbox" id="remember" checked class="modal-checkbox">
+            <label for="remember">ЗАПОМНИТЕ МЕНЯ</label>
+            <a href="#" class="modal-form__lose-pass">Я ЗАБЫЛ ПАРОЛЬ</a>
+            <button class="modal-form__enter">ВОЙТИ</button>
+        </form>
+    </div>
+</body>
+</html>
