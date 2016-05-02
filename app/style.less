@@ -79,9 +79,6 @@ body {
         &:hover{
           background: #242424 url('img/lk-white.png') no-repeat 10px 39px;
         }
-        &:active .modal {
-            display: block;
-          }
   }
 }
 .logo{
@@ -332,6 +329,7 @@ body {
     background: url('img/cross.png') no-repeat;
     left: 485px;
     top: 41px;
+    cursor: pointer;
   }
   &-text{
     display: block;
@@ -356,7 +354,6 @@ body {
   &-form__lose-pass{
     margin-left: 54px;
     display: inline-block;
-    text-decoration: none;
     color: #000000;
   }
   &-form__enter{
@@ -369,4 +366,7 @@ body {
     padding-top: 10px;
     padding-bottom: 10px;
   }
+}
+.modal-show{
+  display: block;
 }

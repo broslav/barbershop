@@ -80,9 +80,6 @@ body {
 .user-block__link:hover {
   background: #242424 url('img/lk-white.png') no-repeat 10px 39px;
 }
-.user-block__link:active .modal {
-  display: block;
-}
 .logo {
   width: 400px;
   margin: 0 auto;
@@ -313,6 +310,7 @@ body {
   background: url('img/cross.png') no-repeat;
   left: 485px;
   top: 41px;
+  cursor: pointer;
 }
 .modal-text {
   display: block;
@@ -337,7 +335,6 @@ body {
 .modal-form__lose-pass {
   margin-left: 54px;
   display: inline-block;
-  text-decoration: none;
   color: #000000;
 }
 .modal-form__enter {
@@ -349,4 +346,7 @@ body {
   border: none;
   padding-top: 10px;
   padding-bottom: 10px;
+}
+.modal-show {
+  display: block;
 }
