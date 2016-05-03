@@ -164,9 +164,9 @@
             Введите пожалуйста свой логин и пароль
             Если вы забыли пароль
         </span>
-        <form action="/echo" method="post" class="modal-form">
-            <input type="text" id="login" class="modal-form__input--login modal-form__input" placeholder="ЛОГИН">
-            <input type="text" id="password" class="modal-form__input--pass modal-form__input" placeholder="ПАРОЛЬ">
+        <form action="/echo" method="get" class="modal-form">
+            <input type="text" name="login" class="modal-form__input--login modal-form__input" placeholder="ЛОГИН" required>
+            <input type="password" name="password" class="modal-form__input--pass modal-form__input" placeholder="ПАРОЛЬ"required>
             <input type="checkbox" id="remember" checked class="modal-checkbox">
             <label for="remember">ЗАПОМНИТЕ МЕНЯ</label>
             <a href="#" class="modal-form__lose-pass">Я ЗАБЫЛ ПАРОЛЬ</a>
